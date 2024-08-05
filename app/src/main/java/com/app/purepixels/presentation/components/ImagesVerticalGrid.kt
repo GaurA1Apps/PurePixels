@@ -26,6 +26,7 @@ fun ImagesVerticalGrid(
         columns = StaggeredGridCells.Fixed(2),
         modifier = modifier,
         contentPadding = PaddingValues(16.dp),
+
         verticalItemSpacing = 8.dp,
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
